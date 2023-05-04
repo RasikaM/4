@@ -178,10 +178,21 @@ if (!error) {
 
 console.log('=======================');
 
-// visi skaiciai - TRUE, isskyrus 0 ir NaN
+// visi skaiciai - TRUE, isskyrus 0 ir NaN, 
+// undefined - FALSE
+// null - FALSE
+// visi string - TRUE , isskyrus tuscias
+// visos function - TRUE
+// visi array - TRUE
+// visi object - TRUE
 
-if (NaN) {
+const nameImputValue = '';
+
+if (!nameImputValue) {
     console.log('kazkas');
 } else {
     console.log('ne kazka');
 }
+
+const negative = !!nameImputValue;
+console.log(negative);
