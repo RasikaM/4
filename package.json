@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "if": "nodemon ./js/10-if.js",
+    "arraym": "nodemon ./js/09-arraym.js",
+    "object": "nodemon ./js/08-object.js",
+    "boolean": "nodemon ./js/06-boolean.js",
     "array": "nodemon ./js/05-array.js",
     "function": "nodemon ./js/04-function.js",
     "strings": "nodemon ./js/03-strings.js",
